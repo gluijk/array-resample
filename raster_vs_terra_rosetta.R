@@ -1,6 +1,6 @@
-# Speed comparison raster vs terra packages
+# Basic operations syntax comparison raster vs terra packages
 # www.overfitting.net
-# https://www.overfitting.net/2023/12/simulacion-de-diluvio-universal-con-r.html
+# https://www.overfitting.net/2024/01/reescalado-de-imagenes-con-el-paquete.html
 
 library(raster)  # read GeoTIFF, reprojection, crop and resample
 library(terra)  # read GeoTIFF, reprojection, crop and resample
