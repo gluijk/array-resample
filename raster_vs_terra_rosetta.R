@@ -20,6 +20,7 @@ abline(v=0)  # Greenwich meridian
 
 # REPROJECT raster from Longitude Latitude (+proj=longlat)/WGS84
 # to Lambert Conic Conformal (+proj=lcc)/WGS84
+# by default crs="+proj=lcc +ellps=WGS84 +lat_1=33 +lat_2=45 +lon_0=0"
 CRS="+proj=lcc +ellps=WGS84 +lat_1=33 +lat_2=45 +lon_0=0 +units=km"
 deepwatersrp=projectRaster(deepwaters, crs=CRS)
 deepwatersrp
