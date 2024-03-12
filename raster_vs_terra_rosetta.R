@@ -5,6 +5,8 @@
 library(raster)  # read GeoTIFF, reprojection, crop and resample
 library(terra)  # read GeoTIFF, reprojection, crop and resample
 
+# For each operation first code is raster syntax and second code is terra syntax
+
 
 # READ raster
 deepwaters=raster("geotiff_europe.tif.tif")  # read GeoTIFF file
